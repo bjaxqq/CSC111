@@ -10,7 +10,7 @@ public class craps {
         int losses = 0;
 
         for (int i = 0; i <= numGames; i++) {
-            int playerWins = playGame();
+            int playerWins = playGame
             if (playerWins)
                 wins += 1;
             else
