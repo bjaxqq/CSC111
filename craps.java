@@ -1,6 +1,5 @@
 // This script simulates playing craps a large number of times.
 import java.util.Scanner;
-import java.lang.Math;
 
 public class Craps {
     public static void main(String[] args) {
