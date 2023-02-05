@@ -16,7 +16,7 @@ import java.util.Scanner;
 // Three type aliases to clean up the code.
 
 // A Row is an Array of Char
-public class Minesweeper {
+public class minesweeper {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

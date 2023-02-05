@@ -1,7 +1,7 @@
 // This script simulates playing craps a large number of times.
 import java.util.Scanner;
 
-public class Craps {
+public class craps {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Creates a scanner that reads the input
         System.out.print("How many times should we play the game? "); // Prints how many times we should play the game
