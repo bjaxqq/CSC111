@@ -40,9 +40,7 @@ public class President {
 
     // Additional method that returns a short bio of the President using their name, age, and political party
     public String bio() {
-        return "Name: " + name;
-        return "Age: " + age;
-        return "Party: " + party;
+        return "Name: " + name + "\nAge: " + age + "\nParty: " + party;
     }
 
     // Additional method that returns whether the President is young old based on the average age for Presidents in the US (55 years old)
