@@ -8,7 +8,7 @@ public class FileInput {
     public static void main(String[] args) {
         String inputLine;
 
-        Sanner fileInput;
+        Scanner fileInput;
         File inFile = new File("TestData.txt");
 
         System.out.println("Opening and reading file");
