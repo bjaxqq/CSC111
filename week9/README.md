@@ -10,8 +10,6 @@ Create a 4-node linked list by setting the `next` variable of the one node to a 
 ```
 n1.setNext(n2);
 ```
-The `next` variable for the last node should remain `null`.
-
 3. Print the contents of each node of the linked list using only the first node reference variable. For example, the contents of the second node may be accessed as follows.
 ```
 n1.getNext().getItem()
