@@ -1,6 +1,6 @@
-### Week 9: Node ADT Activity
+# Week 9: Node ADT Activity
 
-# Instructions:
+### Instructions:
 1. Implement the `Node` class shown in the handout. Test the class by implementing a `main` method that uses each constructor and each method.
 2. Create four nodes with each `next` variable set to `null`. For example,
 ```
