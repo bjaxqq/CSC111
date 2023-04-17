@@ -13,15 +13,10 @@ public class MazeSolver {
     private char[][] maze;
     private int startRow;
     private int startCol;
-    private int finishRow;
-    private int finishCol;
-    
     public MazeSolver(char[][] maze, int startRow, int startCol, int finishRow, int finishCol) {
         this.maze = maze;
         this.startRow = startRow;
         this.startCol = startCol;
-        this.finishRow = finishRow;
-        this.finishCol = finishCol;
     }
     
     public void display() {
