@@ -16,7 +16,7 @@ public class IntStack {
     }
 
     // Constructor to create an empty stack
-    public createStack() {
+    public void createStack() {
         top = null;
         size = 0;
     }
