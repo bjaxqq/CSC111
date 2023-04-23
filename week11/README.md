@@ -1,4 +1,4 @@
-# Tree Activity
+# Week 11: Tree Activity
 
 ### Objective
 For this activity you will test the class ```BinaryTreeNode```. You will build a simple binary tree by linking nodes together. You will create a class ```BinaryTree``` that allows you to create an empty binary tree, has a method to determine whether the tree is empty, and has a method that inserts nodes such that items with lesser values than the value of a node are in the left subtree, otherwise they are in the right subtree. You will also create a method to perform an inorder traversal of the binary tree.
