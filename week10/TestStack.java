@@ -12,7 +12,7 @@ public class TestStack{
 		
 		System.out.println("Stack is empty = " + s.isEmpty());
 		
-		//push two integers
+		// Push two integers
 		System.out.println("\nPush two intergers: 3 and 5");
 		s.push(3);
 		s.push(5);
@@ -20,14 +20,14 @@ public class TestStack{
 		System.out.println("Stack is empty = " + s.isEmpty());
 		s.display();
 		
-		//remove top item
+		// Remove top item
 		System.out.println("\nPop top item");
 		s.pop();
 		
 		System.out.println("Stack is empty = " + s.isEmpty());
 		s.display();
 		
-		//push two more integers
+		// Push two more integers
 		System.out.println("\nPush two intergers: 9 and -6");
 		s.push(9);
 		s.push(-6);
@@ -35,10 +35,10 @@ public class TestStack{
 		System.out.println("Stack is empty = " + s.isEmpty());
 		s.display();
 		
-		//peek top item
+		// Peek top item
 		System.out.println("\nTop item on the stack is " + s.peek());
 		
-		//pop top two items
+		// Pop top two items
 		System.out.println("\nPop two items");
 		s.pop();
 		s.pop();
@@ -46,7 +46,7 @@ public class TestStack{
 		System.out.println("Stack is empty = " + s.isEmpty());
 		s.display();
 		
-		//push two more integers
+		// Push two more integers
 		System.out.println("\nPush two intergers: 11 and 99");
 		s.push(11);
 		s.push(99);
@@ -54,7 +54,7 @@ public class TestStack{
 		System.out.println("Stack is empty = " + s.isEmpty());
 		s.display();
 		
-		//Remove all integers from stack
+		// Remove all integers from stack
 		System.out.println("\nRemove all integers");
 		s.popAll();
 		
