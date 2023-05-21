@@ -1,0 +1,8 @@
+# Homework 8.1-8.4
+
+Read 8.1-8.4 (pp 382-402) in your textbook (Walls and Mirrors) and answer the following question in the Sections 8.1-8.4 Reading Journal on Blackboard.
+1. On pages 332-333 of the textbook there is Pseudocode for the ADT Stack Operations (Key Concepts) and UML diagram. On page 383 there is Pseudocode for the ADT Queue Operations (Key Concepts) and UML diagram.
+- Select one operation from each set of operations that you see as most similar. Briefly explain why you chose these two operations.
+- Select one operation from each set of operations that you see as least similar. Briefly explain why you chose these two operations.
+2. On pages 391-396 of the textbook an array-based queue implementation is presented. Select a sentence or short passage that captures the most important feature of the array-based queue. Briefly explain why you chose this particular sentence or short passage.
+3. On pages 390-391 of the textbook an example is presented where a stack and a queue are used to determine whether string of characters is a palindrome. Stacks implement a LIFO (last in first out) protocol while Queues implement a FIFO (first in first out) protocol. Select a block of pseudocode (page 391) or sentence or short passage that best illustrates how the protocols are used together to identify string palindromes. Briefly explain why you selected this block of pseudocode or sentence or short passage.
