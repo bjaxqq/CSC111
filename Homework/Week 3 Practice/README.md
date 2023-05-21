@@ -12,11 +12,11 @@
 
     int iResult, num1 = 15, num2 = 18, num3 = 13, num4 = 4; double fResult, val1 = 14.0, val2 = 3.3;
     
-    `iResult = num3 / num4;`
-    `fResult = num3 / num4;`
-    `fResult = val1 / num4;`
-    `fResult = (double) num3 / num4;`
-    `fResult = (double) (num2 / num3);`
+    `iResult = num3 / num4;`\
+    `fResult = num3 / num4;`\
+    `fResult = val1 / num4;`\
+    `fResult = (double) num3 / num4;`\
+    `fResult = (double) (num2 / num3);`\
     `iResult = num3 % num4;`
 
 4. What is wrong with the following code fragment? Rewrite it so that it produces correct output.
