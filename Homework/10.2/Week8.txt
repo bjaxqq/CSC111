@@ -1,0 +1,57 @@
+(my page numbers might be different because I used an online textbook)
+
+1. 1. For the selection sort (pp 477-480) select a sentence or short passage that best captures the way the
+selection sort works. Briefly explain why you chose this passage.
+
+I picked the passage: "For a card player, this process is analogous to looking at an entire hand of cards 
+and ordering it by selecting cards one at a time in their proper order." (Page 543). I liked the reference
+of playing cards as it is something I am very familiar. Similar to this, the selection sort algorithm
+iteratively chooses the lowest or largest member from the unsorted portion of the array and sets it in 
+the proper location.
+
+2. 2. For the bubble sort (pp 481-482) select a sentence or short passage that best captures the way the
+bubble sort works. Briefly explain why you chose this passage.
+
+I picked the passage: "The bubble sort compares adjacent items and exchanges them if they are out of order." 
+(Page 547). I like the passage because it briefly and eloquently summarizes the exact process that the 
+bubble sort has. It tells us how the sort works and then what happens once elements are sorted, so it is a
+good one-liner.
+
+3. In no more than two sentences, detail the greatest difference between selection sort and the bubble sort.
+
+Selection sort repeatedly finds the min/max element and puts it in the correct spot, while bubble sort compares
+elements side-by-side and swaps if they are out of order, "bubbling" the largest to the end of the array.
+
+4. For the merge sort (pp 485-491) select a sentence or short passage that best captures the way the merge
+sort works. Briefly explain why you chose this passage.
+
+I like the passage: "Mergesort is a recursive sorting algorithm that divides the array into halves, sorts each half,
+and then merges the sorted halves into one sorted array." (Page 551). I chose this passage because it is an easy 
+description of the key steps in the merge sort algorithm, highlighting its recursive nature and how the sorted halves 
+are merged back together to create a fully sorted array.
+
+5. For the quicksort (pp 491-503) select a sentence or short passage that best captures the way the
+quicksort works. Briefly explain why you chose this passage.
+
+I picked: ""The partition induces relationships among the array items that are the ingredients of a recursive solution. 
+Arranging the array items around the pivot p generates two smaller sorting problemsâ€”sort the left section of the array (S1),
+and sort the right section of the array (S2). The relationships between the pivot and the array items imply that once you 
+solve the left and right sorting problems, you will have solved the original sorting problem." (Page 558). I chose this 
+because it describes the core concept of quicksort, which is partitioning the array based on the pivot element. It emphasizes
+how the partitioning step creates two smaller subproblems that need to be solved recursively.
+
+6. In your own words, explain in some detail how the quicksort works.
+
+Quicksort uses divide-and-conquer. It takes the remaining elements into two subarrays, one with elements smaller than the 
+pivot and the other with elements more than/equal to the pivot. It has to choose a pivot element from the array. Each 
+subarray goes through recursively until the entire array is sorted. Here are the steps:
+    1. Choose pivot element from array.
+    2. Rearranging elements so elements smaller than pivot are before it, and elements greater after it.
+    3. Recursively apply steps 1 and 2 to subarrays created from partitioning.
+    4. Repeat above steps until subarrays contain only one element or are empty.
+    5. Combine the sorted subarrays to obtain the fully sorted array.
+
+7. In no more than two sentences, detail the greatest difference between merge sort and quicksort.
+
+Merge sort splits the array into small subarrays and merges them together sorted. Quicksort partitions the array based off the
+pivot element, recursively sorting the subarrays.
