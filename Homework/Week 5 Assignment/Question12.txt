@@ -1,0 +1,23 @@
+a. myClass.x = 5;
+
+Illegal, because the 'x' is private so it cannot be accessed outside the class.
+
+b. myClass.z = 5;
+
+Legal.
+
+c. myClass.sum(x);
+
+Illegal, because when calling 'sum()' method and passing 'x', 'x' is not defined.
+
+d. int ans = myClass.sum();
+
+Legal.
+
+e. myClass.reset(1, 2, 3);
+
+Illegal, because the 'reset()' method is declared as private.
+
+f. boolean x = myClass.check(11.2);
+
+Legal.
