@@ -1,0 +1,13 @@
+1. Which of the sorting methods that you implemented performs best? Briefly explain your answer.
+
+Merge Sort performs the best. It requires the least number of comparisons, and its time complexity of O(n log n) is more efficient.
+
+2. Which of the sorting methods that you implemented performs worst? Briefly explain your answer.
+
+Bubble sort performs the worst. It requires the most number of comparisons, and its time complexity of O(n^2) is least efficient.
+
+3. How does the data gathered for each sort method you implemented compare to its theoretical performance? 
+3. Assuming the theoretical performance differs from the data gathered, explain the purpose of theoretical performance.
+
+The theoretical performance matches up well. The time complexities especially show the efficiencies work in an actual application.
+Selection, bubble, and merge all show through testing that their time complexities match up.
